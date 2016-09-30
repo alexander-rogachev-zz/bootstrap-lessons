@@ -19,10 +19,89 @@
     <![endif]-->
   </head>
   <body>
-<div class="container">
+   <div class="navbar navbar-default navbar-fixed-top">
+             <div class="container">
+                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                        <span class="sr-only">Открыть навигацию</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                     <a class="navbar-brand" href="#">Логотип</a>
+                 </div>
+                 <div class="collapse navbar-collapse" id="responsive-menu">
+                     <ul class="nav navbar-nav">
+                         <li><a href="#">Пункт1</a></li>
+                         <li class="dropdown">
+                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Пункт2 <b class="caret"></b></a>
+                             <ul class="dropdown-menu">
+                                 <li><a href="#">Пункт 1</a></li>
+                                 <li><a href="#">Пункт 2</a></li>
+                                 <li><a href="#">Пункт 3</a></li>
+                                 <li class="divider"></li>
+                                 <li><a href="#">Пункт 4</a></li>
+                             </ul>
+                         </li>
+                         <li><a href="#">Пункт3</a></li>
+                         <li><a href="#">Пункт4</a></li>
+                     </ul>
+                 </div>
+             </div>
+          </div>
+          <div id="carousel" class="carousel slide">
+              <ol class="carousel-indicators">
+                  <li class="active" data-target="#carousel" data-slide="0"></li>
+                  <li data-target="#carousel" data-slide="1"></li>
+                  <li data-target="#carousel" data-slide="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                 <div class="item active">
+                     <img src="images/wn_cover.png" alt="">
+                     <div class="images/panding_bold.png">
+                         <h3>Первый слайд</h3>
+                         <p>Описание слайда</p>
+                     </div>
+                 </div>
+                 <div class="item">
+                     <img src="images/panding_bold.png" alt="">
+                     <div class="carousel-caction">
+                         <h3>Первый слайд</h3>
+                         <p>Описание слайда</p>
+                     </div>
+                 </div>
+                 <div class="item">
+                     <img src="images/panding_bold.png" alt="">
+                     <div class="carousel-caction">
+                         <h3>Первый слайд</h3>
+                         <p>Описание слайда</p>
+                     </div>
+                 </div>
+
+              </div>
+              <a href="#carousel" class="left carousel-control" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a href="#carousel" class="left carousel-control" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+          </div>
+  <div class="container">
+      <div class="row">
+         <h1>Название сайта</h1>
+
+      </div>
+  </div>
+<div class="container-fluid">
     <dev class="row">
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8"></div>
-        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-4"></div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+        <div class="col-md-4 hidden-md visible-lg"></div>
     </dev>
 </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
